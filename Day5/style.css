@@ -1,0 +1,57 @@
+body {
+
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 40vw;
+    height: 40vh;
+    background-color: rgba(4, 8, 88, 0.5);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px white;
+
+}
+
+.login h2 {
+    color: white;
+    text-align: center;
+}
+
+.div {
+    margin: auto;
+    width: 80%;
+
+}
+
+.div .group {
+
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.div .group input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: rgba(4, 8, 88, 0.5);
+    border-bottom: 1px solid rgb(24, 2, 2);
+}
+
+.div .group label {
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    color: rgb(242, 248, 248);
+}
+
